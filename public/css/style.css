@@ -53,9 +53,15 @@ label{
 	margin:0;
 }
 
+.logo{
+	width:50px;
+	height:50px;
+}
+
 /*-- banner --*/
 .banner{
-	background:url(https://p.w3layouts.com/demos_new/template_demo/08-06-2017/literature-demo_Free/1173523976/web/images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/accounting-alone-application-938965.jpg) no-repeat 0px 0px; 
+	/* https://p.w3layouts.com/demos_new/template_demo/08-06-2017/literature-demo_Free/1173523976/web/images/1.jpg */
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -81,14 +87,14 @@ h1 a.navbar-brand {
 }
 .navbar-brand span {
     display: block;
-    font-size: .25em;
-    color: #ffffff;
+    font-size: .50em;
+    color: #000000;
     text-transform: capitalize;
     font-weight: 100;
     letter-spacing: 8px;
 }
 .navbar-default .navbar-brand,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color:#FFFFFF;
+    color:#00e6e6
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
@@ -151,7 +157,7 @@ h1 a.navbar-brand {
     float: none;
 }
 .top-nav ul li a {
-    color: #fff !important;
+    color: #121819 !important;
     font-size: 1em;
     margin: 0;
     text-decoration: none;
@@ -177,26 +183,26 @@ div#bs-example-navbar-collapse-1 {
 }
 .w3l_banner_info h3 {
     font-size: 4em;
-    color: #fff;
+    color: #00B5B5;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
  .w3l_banner_info p {
     font-size: 0.9em;
-    color: rgba(255, 255, 255, 0.75);
+    color: #00B5B5;
     letter-spacing: 2px;
     text-transform:capitalize;
     margin: 1em 0 4em;
 }
  .wthree_banner_info_grid i {
     font-size: 3em;
-    color: #fff;
+    color: #00B5B5;
     padding-bottom: 0.4em;
     margin-bottom: .4em;
     border-bottom: 1px solid rgba(255, 255, 255, 0.51);
 }
 a.w3-join {
-    color: #fff;
+    color: #00e6e6;;
     padding: 1em 2.5em;
     display: inline-block;
     margin: 0 auto;
@@ -204,7 +210,8 @@ a.w3-join {
     letter-spacing: 2px;
     font-size: 0.9em;
     font-weight: 400;
-    border: 1px solid #b5b2b2;
+	border: 1px solid #b5b2b2;
+	background: #999
 }
 a.w3-join:hover {
 	color:#FCB941;
@@ -287,7 +294,7 @@ background: -ms-linear-gradient(to right, rgba(0, 128, 0, 0.7),rgba(0, 0, 255, 0
 /*-- //Grids --*/
 /*-- About --*/
 .about{
-	padding:12em 0 5em;
+	padding:6em 0 5em;
 }
  h3.tittle-w3l {
     font-size: 3em;
@@ -420,10 +427,12 @@ background: -ms-linear-gradient(to right, rgba(0, 128, 0, 0.7),rgba(0, 0, 255, 0
     font-size: 1.8em;
     margin: 1em 0;
     font-weight: 100;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 .agileits-services-info p {
-    color: #c5c5c5;
+	color: #c5c5c5;
+	font-weight:500;
 }
 .w3l-services-grid:nth-child(2) {
     padding-top: 5em;
@@ -436,6 +445,9 @@ background: -ms-linear-gradient(to right, rgba(0, 128, 0, 0.7),rgba(0, 0, 255, 0
 .w3layouts_banner_bottom_grid{
 	position:relative;
 	overflow:hidden;
+	height: 300px;
+    width: 300px;
+    clip-path: circle(50% at 50% 50%);
 }
 .w3layouts_banner_bottom_grid img{
 	 -webkit-transition: 0.4s ease;
@@ -538,6 +550,10 @@ figure.effect-moses p {
 	height: 50%;
 	border: 4px solid #fff;
 }
+figure.effect-moses p {
+	height: 60%;
+}
+
 figure.effect-moses h4 {
     padding: 36px 20px 20px 20px;
     width: 50%;
@@ -673,6 +689,15 @@ section.stats p.text-center {
 .gallery-grid1 img{
 	padding:.5em;
 	border:1px dotted #f26f62;
+}
+.aboutus{
+	text-align: center;
+    padding-bottom: 22px;
+    font-size: 42px;
+}
+.about-us-content{
+	font-size: 19px;
+	font-weight: 400;
 }
 .da-thumbs {
 	list-style: none;
