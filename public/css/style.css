@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body{
 	padding:0;
 	margin:0;
@@ -295,6 +290,7 @@ background: -ms-linear-gradient(to right, rgba(0, 128, 0, 0.7),rgba(0, 0, 255, 0
 /*-- About --*/
 .about{
 	padding:6em 0 5em;
+	background: rgba(23, 22, 22, 0.85);
 }
  h3.tittle-w3l {
     font-size: 3em;
@@ -693,11 +689,13 @@ section.stats p.text-center {
 .aboutus{
 	text-align: center;
     padding-bottom: 22px;
-    font-size: 42px;
+	font-size: 42px;
+	color: YELLOWGREEN;
 }
 .about-us-content{
 	font-size: 19px;
 	font-weight: 400;
+	color:white;
 }
 .da-thumbs {
 	list-style: none;
@@ -2182,5 +2180,60 @@ section.stats p.text-center {
 	ul.nav.navbar-nav li {
 		margin: .9em 0;
 	}
+}
+
+/* services */
+
+.service {
+	padding: 7em 0;
+	background: #00a78e;
+}
+
+.icon_info span {
+	height: 90px;
+	width: 90px;
+	background: #fff;
+	box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 5px solid #fafafa;
+	line-height: 85px;
+	font-size: 2em;
+	color: #f85a40;
+}
+
+.icon_info h5 {
+	font-size: 1.4em;
+	color: #333;
+	margin: 1em 0;
+	font-weight: 600;
+}
+
+.icon_info {
+	text-align: center;
+}
+
+.icon_info {
+	text-align: center;
+	padding: 4em 2em;
+	background: #fafafa;
+	box-shadow: 0 0px 3px rgb(9, 132, 113), 0 1px 3px rgb(5, 99, 85);
+}
+
+.grid_info_main:nth-child(2) {
+	margin-top: 5em;
+}
+
+.grid_info_main:nth-child(3) {
+	margin-top: 10em;
+}
+
+.grid_info.second {
+	margin-top: 1.5em;
 }
 /*--//responsive--*/
