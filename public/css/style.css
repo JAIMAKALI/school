@@ -157,7 +157,7 @@ h1 a.navbar-brand {
     margin: 0;
     text-decoration: none;
     padding: 0;
-    font-weight: 300;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -178,20 +178,20 @@ div#bs-example-navbar-collapse-1 {
 }
 .banner_info h3 {
     font-size: 4em;
-    color: #00B5B5;
+    color: #00B20D;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
  .banner_info p {
-    font-size: 0.9em;
-    color: #00B5B5;
+    font-size: 1.5em;
+    color: #00B20D;
     letter-spacing: 2px;
     text-transform:capitalize;
     margin: 1em 0 4em;
 }
  .banner_info_grid i {
     font-size: 3em;
-    color: #00B5B5;
+    color: #00B20D;
     padding-bottom: 0.4em;
     margin-bottom: .4em;
     border-bottom: 1px solid rgba(255, 255, 255, 0.51);
